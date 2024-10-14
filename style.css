@@ -18,7 +18,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
+    display: block;
     margin: 0 15px;
 }
 
@@ -34,17 +34,15 @@ section {
 
 footer {
     text-align: center;
-    padding: 10px;
     background-color: #87caf0;
     color: #fff;
-    position: absolute;
     width: 100%;
     bottom: 0;
 }
 
 /* Hide nav list initially on mobile */
 #nav-list {
-    display: none;
+    display: block;
 }
 
 .nav-toggle {
